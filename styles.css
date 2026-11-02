@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'Score Font';
+	src: url(fonts/CursedTimerULiL.ttf)
+}
+
+/** {
+	box-sizing: border-box;
+}*/
+
+body {
+    margin: 0;
+    background: #061226;
+    text-align: center;
+    height: 100%;
+}
+
+.container {
+    width: 600px;
+	height: 350px;
+	border-radius: 20px;
+	background: #1B244A;
+	margin: 150px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+h3 {
+	font-family: 'Verdana';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 36px;
+	text-align: center;
+	color: #EEEEEE;
+	margin-top: 0;
+}
+
+.scoreboard {
+	width: 150px;
+	height: 120px;
+	background: #080001;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+
+p {
+	font-family: 'Score Font';
+	font-size: 90px;
+	text-align: center;
+	color: #F94F6D;
+	margin: 0 auto;
+}
+
+.btns {
+	margin-top: 30px;
+}
+
+h4 {
+	font-family: 'Verdana', serif;
+	font-size: 25px;
+	color: #eee;
+}
